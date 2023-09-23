@@ -6,9 +6,9 @@ const Header = () => {
   const handleMenu = () =>{
     setMenu(!menu)
   }
-  let text = 'bg-red-900 p-5 relative text-3xl border-b uppercase after:content-[""] after:bg-gradient-to-r from-[#46d73e] to-slate-800 after:w-0 after:duration-700 after:absolute after:h-full after:top-0 after:left-0 hover:after:w-full after:z-10 duration-700 hover:text-black'
+  let text = 'bg-slate-800 p-5 relative text-3xl border-b uppercase after:content-[""] after:bg-gradient-to-r from-[#46d73e] to-slate-800 after:w-0 after:duration-700 after:absolute after:h-full after:top-0 after:left-0 hover:after:w-full after:z-10 duration-700 hover:text-black'
   return (
-    <div id='home'  className='w-full flex p-3 pb-10 items-center border-b border-[#65afbc] '>
+    <div id='home'  className='w-full flex p-3 pb-10 md:pb-3 items-center border-b border-[#65afbc] '>
         <div className='flex w-full justify-center sm:justify-between px-3 items-center'>
             <h1 className='text-2xl md:text-3xl'>SSC IT club</h1>
             <ul className='hidden sm:flex gap-10 md:text-lg'>
