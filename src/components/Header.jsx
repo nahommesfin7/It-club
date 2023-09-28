@@ -12,6 +12,7 @@ const Header = () => {
         <div className='flex w-full justify-center sm:justify-between px-3 items-center'>
             <h1 className='text-2xl md:text-3xl'>SSC IT club</h1>
             <ul className='hidden sm:flex gap-10 md:text-lg'>
+                <a href="#home"><p>Home</p></a>
                 <a href="#about"><p>About</p></a>
                 <a href="#lectures"><p>Lectures</p></a>
                 <a href="#registration"><p>Registration</p></a>
