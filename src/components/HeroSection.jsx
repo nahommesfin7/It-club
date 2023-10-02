@@ -1,22 +1,54 @@
 import React from 'react'
+import Typed from 'react-typed';
+// import {BiSolidDownArrow} from '@iconscout/react-unicons'
+import { BiDownArrow } from "react-icons/bi";
+// import {ReactComponent as ReactLogo} from '../assets/ht7.svg'
+
 
 const HeroSection = () => {
   return (
-        <div className='p-8 pb-24 md:py-20 md:px-20 h-screen flex  flex-col justify-center lg:px-52 -mt-5'>
-            <h1 className='text-4xl pb-2'>IT-Club of SSC</h1>
-            <div className='flex flex-col items-center w-[90%]'>    
-            <p>Welcome to the IT Club of SSC!
-            The IT Club of SSC Software Solutions Club is a vibrant and enthusiastic community of tech enthusiasts and aspiring professionals who are passionate about all things related to information technology.
-            </p>
-            <p>
-            Whether you are a seasoned programmer, a curious beginner, or simply interested in exploring the world of technology, our club provides a platform for learning, collaboration, and innovation.
-            </p>
+        <div className='pt-[20vh] md:pt-[21vh] p-5 text-center flex flex-col items-center text-text md:py-10'>
+
+          <div className='p-5'>
+           <Typed className='text-5xl uppercase text-text'
+                    strings={['we are','IT-Club of SSC','']}
+                    typeSpeed={60}
+                    loop
+                />
+          </div>
+
+          <div className='md:w-[50%] flex flex-col items-center'>
+          <div className='relative flex flex-col justify-center items-center after:content-["↘️"] after:text-xl after:top-0  after:absolute after:-left-7  m-5 rounded-md border text-justify border-secondary p-5'>    
+
+              <p>Welcome to IT club, the premier destination for SSC high school students interested in IT. Our mission is to provide a supportive and engaging community for students to learn, grow, and develop their skills in IT. 
+              </p>
+
+              </div>
+              <div className='relative flex flex-col justify-center items-center after:content-["↘️"] after:text-xl after:top-0  after:absolute after:-left-7  m-5 rounded-md border  border-secondary text-justify p-5 '>
+                <p>
+                Throughout the year, we organize a variety of events and activities to help our members succeed, including coding challenges, workshops, and mentorship programs. Join us today and become part of a vibrant and supportive community of SSC high school students passionate about IT.
+                </p>
+      
+              </div>
+              <div className='relative flex flex-col justify-center items-center after:content-["↘️"] after:text-xl after:top-0  after:absolute after:-left-7  m-5 rounded-md border border-secondary text-justify p-5 '>
+                <p>
+                Together, we can make a difference in the world and shape the future of technology.
+                </p>
+      
+              </div>
+
+          </div>
             
+            <div className='p-10 flex flex-col items-center'>
+                <BiDownArrow size={50} className='animate-pulse' />
+                <p className='text-gray-500'>Scroll</p>
             </div>
-            <p className='py-6 text-4xl '>Registration are open for 2023/24!</p>
-            <div className='w-full '>
-            <button className=' bg-[#46d73e] text-black px-5 py-3 rounded-md text-lg duration-500 hover:bg-[#a4e3a1] hover:text-white'>Register</button>
-            </div>
+
+           <div>
+            
+           </div>
+
+
     </div>
   )
 }
