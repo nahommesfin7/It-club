@@ -10,11 +10,9 @@ const HeroSection = () => {
         <div className='pt-[20vh] md:pt-[21vh] p-5 text-center flex flex-col items-center text-text md:py-10'>
 
           <div className='p-5'>
-           <Typed className='text-5xl uppercase text-text'
-                    strings={['we are','IT-Club of SSC','']}
-                    typeSpeed={60}
-                    loop
-                />
+           <h1 className='text-5xl uppercase text-text'>
+            IT club of SSC
+           </h1>
           </div>
 
           <div className='md:w-[50%] flex flex-col items-center'>
