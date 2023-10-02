@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 // import {BiSolidDownArrow} from '@iconscout/react-unicons'
 import { BiDownArrow } from "react-icons/bi";
 // import {ReactComponent as ReactLogo} from '../assets/ht7.svg'
